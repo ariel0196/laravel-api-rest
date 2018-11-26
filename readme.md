@@ -6,15 +6,16 @@
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
-DB_DATABASE=inge4
-DB_USERNAME=ariel
-DB_PASSWORD=root
+DB_DATABASE=test
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
 ```
 
 ### 2. Instalar dependencias
 ```bash 
 $ php artisan install
 ```
+
 ### 3. Migrar base de datos
 ```bash 
 $ php artisan migrate

@@ -1,4 +1,4 @@
-## Instalacion
+## Instalación
 
 ### 1. Modificar los parametros de la bd **.env**
 
@@ -13,14 +13,14 @@ DB_PASSWORD=root
 
 ### 2. Instalar dependencias
 ```bash 
-	php artisan install
+$ php artisan install
 ```
 ### 3. Migrar base de datos
 ```bash 
-	php artisan migrate
+$ php artisan migrate
 ```
 
 ### 4. Poblar la base de datos
 ```bash 
-	php artisan db:seed
+$ php artisan db:seed
 ```

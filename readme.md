@@ -30,5 +30,9 @@ $ php artisan db:seed
 
 Metodo | URL | Resultado
 -- | -- | --
-GET | /productos/
+GET | /productos | Listado de productos
+GET | /productos/{id} | Producto especfico por ID
+POST | /productos | Creacion de productoss
+PUT | /productos | Actualizacion de productos
+DELETE | /productos/{id} | Eliminacion de productos por ID
 

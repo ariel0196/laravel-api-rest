@@ -1,6 +1,6 @@
 ## Instalación
 
-### 1. Modificar los parametros de la bd **.env**
+### 1. Modificar los parametros de la bd (archivo **.env**)
 
 ```yaml
 DB_CONNECTION=pgsql
@@ -25,3 +25,10 @@ $ php artisan migrate
 ```bash 
 $ php artisan db:seed
 ```
+
+### 5. Probar
+
+Metodo | URL | Resultado
+-- | -- | --
+GET | /productos/
+

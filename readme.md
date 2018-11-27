@@ -13,7 +13,7 @@ DB_PASSWORD=postgres
 
 ### 2. Instalar dependencias
 ```bash 
-$ php artisan install
+$ composer install
 ```
 
 ### 3. Migrar base de datos

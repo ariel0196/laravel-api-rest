@@ -29,11 +29,11 @@ $ php artisan db:seed
 ```
 
 ## Endpoints
-Metodo | URL | Resultado
+Método | URL | Función
 -- | -- | --
-GET | /productos | Listado de productos
-GET | /productos/{id} | Producto especfico por ID
-POST | /productos | Creacion de productoss
-PUT | /productos | Actualizacion de productos
-DELETE | /productos/{id} | Eliminacion de productos por ID
+GET | /productos | Listar productos
+GET | /productos/{id} | Visualizar producto
+POST | /productos | Crear producto
+PUT | /productos | Actualizar producto
+DELETE | /productos/{id} | Eliminar de producto
 

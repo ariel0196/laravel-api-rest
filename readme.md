@@ -2,7 +2,7 @@
 
 ## Instalación
 
-### 1 Modificar configuración de la DB (.env file)
+### 1. Modificar configuración de la DB (.env file)
 
 ```yaml
 DB_CONNECTION=pgsql

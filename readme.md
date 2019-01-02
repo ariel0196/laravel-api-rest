@@ -3,6 +3,7 @@
 ## Instalación
 
 1. Modificar configuración de la DB (.env file)
+
 ```yaml
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -14,17 +15,18 @@ DB_PASSWORD=postgres
 
 2. Instalar dependencias
 
-    $ composer install
+```$composer install```
     
 3. Migrar DB
 
-    $ php artisan migrate
+```$ php artisan migrate```
     
 4. Seed DB
 
-    $ php artisan db:seed
+```$ php artisan db:seed```
 
 ## Endpoints
+
 Método | URL | Función
 -- | -- | --
 GET | /productos | Listar productos

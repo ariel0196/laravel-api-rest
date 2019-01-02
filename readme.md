@@ -11,13 +11,17 @@ DB_DATABASE=test
 DB_USERNAME=postgres
 DB_PASSWORD=postgres
 ```
+
 2. Instalar dependencias
+
     $ composer install
     
 3. Migrar DB
+
     $ php artisan migrate
     
 4. Seed DB
+
     $ php artisan db:seed
 
 ## Endpoints

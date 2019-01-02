@@ -1,6 +1,8 @@
+# CRUD Test con Laravel 5.7
+
 ## Instalación
 
-### 1. Modificar los parametros de la bd (archivo **.env**)
+### 1 Modificar configuración de la DB (.env file)
 
 ```yaml
 DB_CONNECTION=pgsql
@@ -16,18 +18,17 @@ DB_PASSWORD=postgres
 $ composer install
 ```
 
-### 3. Migrar base de datos
+### 3. Migrar DB
 ```bash 
 $ php artisan migrate
 ```
 
-### 4. Poblar la base de datos
+### 4. Seed DB
 ```bash 
 $ php artisan db:seed
 ```
 
-### 5. Probar
-
+## Endpoints
 Metodo | URL | Resultado
 -- | -- | --
 GET | /productos | Listado de productos

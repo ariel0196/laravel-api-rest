@@ -1,4 +1,4 @@
-# CRUD Test con Laravel 5.7
+# API REST Test con Laravel 5.7
 
 ## Instalación
 

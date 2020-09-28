@@ -1,31 +1,31 @@
-# API REST Test con Laravel 5.7
+# API REST - Laravel 5.7
+Pequeño API REST demostrativo realizado con Laravel
 
 ## Instalación
 
-1. Modificar configuración de la DB (.env file)
+1. Configurar DB .env
 
-```yaml
+```
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=test
 DB_USERNAME=postgres
-DB_PASSWORD=postgres
 ```
 
 2. Instalar dependencias
 
 ```
-$composer install
+$ composer install
 ```
     
-3. Migrar DB
+3. Migrar tablas
 
 ```
 $ php artisan migrate
 ```
     
-4. Seed DB
+4. Seed de datos
 
 ```
 $ php artisan db:seed

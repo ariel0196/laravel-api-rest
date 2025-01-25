@@ -1,9 +1,8 @@
-# API REST - Laravel 5.7
-Pequeño API REST demostrativo realizado con Laravel
+# REST API - Laravel 5.7
 
-## Instalación
+## Installation
 
-1. Configurar DB .env
+1. Setup DB .env
 
 ```
 DB_CONNECTION=pgsql
@@ -13,19 +12,19 @@ DB_DATABASE=test
 DB_USERNAME=postgres
 ```
 
-2. Instalar dependencias
+2. Install deps
 
 ```
 $ composer install
 ```
     
-3. Migrar tablas
+3. Migrate tables
 
 ```
 $ php artisan migrate
 ```
     
-4. Seed de datos
+4. Data seed
 
 ```
 $ php artisan db:seed
@@ -33,11 +32,11 @@ $ php artisan db:seed
 
 ## Endpoints
 
-Método | URL | Función
+Method | URL | Description
 -- | -- | --
-GET | /productos | Listar productos
-GET | /productos/{id} | Visualizar producto
-POST | /productos | Crear producto
-PUT | /productos | Actualizar producto
-DELETE | /productos/{id} | Eliminar producto
+GET | /productos | list prods
+GET | /productos/{id} | view prod
+POST | /productos | create products
+PUT | /productos | update products
+DELETE | /productos/{id} | delete products
 
